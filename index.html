@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score keeper</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div id="ScoreKeeperH1">
+            <h1>Score Keeper</h1>
+        </div>
+        <div id="score">
+            <div class="scorePlayer">
+                <h1 id="firstScorePlayer">0</h1>
+                <h1>Player 1</h1>
+            </div>
+            <div class="scorePlayer">
+                <h1 id="secondScorePlayer">0</h1>
+                <h1>Player 2</h1>
+            </div>
+        </div>
+        <div class="SelectDiv">
+            <h1 id="counter">Play To:</h1>
+            <select name="select" id="Selected">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+        </div>
+        <div id="buttons">
+            <button id="Player1">Player 1</button>
+            <button id="Player2">Player 2</button>
+            <button id="Reset">Reset</button>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

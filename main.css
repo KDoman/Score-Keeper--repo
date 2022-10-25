@@ -1,0 +1,99 @@
+:root{
+    --fontFamily: 'Poppins', sans-serif;
+}
+
+body{
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    font-family: var(--fontFamily);
+}
+main{
+    border:0.1em solid rgb(177, 174, 174);
+    box-shadow: 0px 0px 20px;
+    border-radius: 1em;
+    text-align: center;
+    margin: auto;
+    width: 50em;
+    padding: 1rem;
+}
+#buttons{
+    width: fit-content;
+    border: 0.1em solid rgb(177, 174, 174);
+    box-shadow: 0px 0px 5px;
+    border-radius: inherit;
+    margin: 0 auto;
+    padding: 1em;
+}
+#Player1{
+    border:none;
+    padding: 0.5em 1.5em;
+    font-size: 1.2em;
+    background-color: rgb(57, 197, 57);
+    border-radius: 0.5em;
+}
+#Player1:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(57, 197, 57);
+}
+#Player1:active{
+    transform:scaleZ(0.1)
+}
+
+#Player2{
+    border:none;
+    padding: 0.5em 1.5em;
+    font-size: 1.2em;
+    background-color: rgb(250, 67, 67);
+    border-radius: 0.5em;
+}
+#Player2:active{
+    transform:scaleZ(0.1);
+}
+.h1DisplayNone{
+    display: none;
+}
+
+#Player2:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(250, 67, 67);
+}
+.buttonAfterGamePlayer{
+    pointer-events: none;
+}
+#Reset{
+    border:none;
+    padding: 0.5em 1.5em;
+    font-size: 1.2em;
+    background-color: rgb(191, 188, 188);
+    border-radius: 0.5em;
+}
+#Reset:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(191, 188, 188);
+}
+#Reset:active{
+    transform:scaleZ(0.1);
+}
+#score{
+    display:flex;
+    justify-content: center;
+}
+.scorePlayer{
+    padding: 2em 4em;
+}
+
+.SelectDiv{
+    display: flex;
+    justify-content: center;
+    font-size: 0.5em;
+}
+.SelectDivNone{
+    pointer-events: none;
+    color:rgb(149, 148, 148);
+}
+#Selected{
+    height: 2em;
+    margin: auto 0 auto 1em;
+}
