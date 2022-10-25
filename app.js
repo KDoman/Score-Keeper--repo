@@ -38,7 +38,7 @@ player2.addEventListener('click', () => {
         player1.style.backgroundColor = 'rgb(113, 188, 113)';
         player2.classList.add('buttonAfterGamePlayer');
         player2.style.backgroundColor = 'rgb(255, 120, 120)';
-        winner.innerText = 'Player 1 Wins!';
+        winner.innerText = 'Player 2 Wins!';
     }
 })
 
