@@ -1,4 +1,4 @@
-Simple Score Keeper :)
+Simple Scoreboard :)
 
 
-https://kdoman.github.io/Score-Keeper--repo/
+https://kdoman.github.io/Scoreboard--repo/
